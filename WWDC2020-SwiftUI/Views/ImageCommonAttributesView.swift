@@ -12,7 +12,7 @@ struct ImageCommonAttributesView: View {
     //Minute 20 for Introduction SwiftUI WWDC 2020
     @State private var zoomed = false
     var body: some View {
-        Image("Lin-Stolker")
+        Image("Josie-Canesco")
             .resizable()
             .aspectRatio(contentMode: zoomed ? .fill : .fit)
             .onTapGesture {
